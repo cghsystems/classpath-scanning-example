@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+   <properties>
+     
+	  <category name ="corrosionrecache"> 
+		  <property name="num-worker-procs" value="10"/>
+		  <property name="sampling-granularity" value="1"/>
+		  <property name="max-run-minutes" value="60"/>
+	  </category>
+     
+     <category name="general">
+	  	  <property name="queryBeanImplementation" value="com.intetech.beans.sql.AIMQueryBean"/>
+		  <property name="fortyTwo" value="aM6SWNVu4pgwBPw6s5atyg=="/>
+		  <property name="hostUrl" value="localhost"/>
+		  <property name="httpHost" value="localhost"/>
+		  
+		  <property name="serverName" value="localhost"/>
+		  <property name="serverPort" value="80"/>
+	  </category>
+	  
+	  <category name="LICENCE">
+	  	  <property name="client-name" value="Intetech"/>
+	  	  <property name="num-wells" value="q6c3zEn6WaA="/>
+	  	  <property name="expiry-date" value="FZKJV3VE1QCieoe1zjWMvQ=="/>
+	  </category>
+	  
+	  <category name="authentication">
+	  	<property name="super-user-password" value="kRv2Xd1sOMHWpYR1OKe4BQ=="/>
+	  </category>
+	
+	  <category name="datasource">
+	  
+		  <property name="ds1" value="IWIT"/>
+		  
+		  <category name="IWIT">
+			  <property name="jdbc-driver-class" value="net.sf.log4jdbc.DriverSpy"/>
+			  <property name="jdbc-driver" value="jdbc:log4jdbc:oracle:thin"/>
+			  <property name="database-type" value="ORACLE"/>
+			  <property name="database-name" value="IWIT"/>
+			  <property name="database-host" value="192.168.1.6"/>
+			  <property name="database-port" value="1521"/>
+			  <property name="database-user" value="sprintteam2"/>
+		      <property name="database-password" value="xOztxyfxNwc="/>
+		      <property name="datasource-type" value="IWIT"/>
+		  </category>
+	  </category>
+	  
+	  <category name="TLC">
+	  	<property name="numWorkerThreads" value="1"/>
+	  </category>
+	   <!-- 
+	  	Sync service:
+	  	
+	  	PT: Populate and Transfer (for first iWIT instance)
+	  	P: Populate only (for second iWIT instance)
+	  	F or missing: No population or transfer.
+	   -->
+	  <category name="SyncService">
+	  	<property name="enabled" value="F"/>
+	  </category>
+	  
+	  <category name="WebServices">
+		  <property name="ws1" value="WellView"/>
+	  </category>	  
+	  
+ </properties>
